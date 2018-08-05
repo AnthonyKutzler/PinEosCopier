@@ -32,6 +32,7 @@ class BulkAddExcel {
 
 
     void setupInitBulkAdd(String[] quads) throws Exception{
+        //test
         HSSFSheet outSheet;
         if(output.getNumberOfSheets() > 0)
             output.removeSheetAt(0);
